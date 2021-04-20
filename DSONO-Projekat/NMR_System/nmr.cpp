@@ -51,51 +51,6 @@ int checkResultsNMR(vector<int> voter){
 int main(){
     srand((unsigned) time(0));
 
-    //std::replace(a.begin(), a.end(), a[rand()%((dim+1)*(dim+1))], 0);
-    /*a[rand()%((dim+1)*(dim+1))] = 0;
-
-    for(int i = 0;i < dim+1;i++){
-        for(int j = 0;j < dim+1;j++){
-            c[i*(dim+1)+j] = a[i*(dim+1)+j]+b[i*(dim+1)+j];
-            std::cout << to_string(c[i*(dim+1)+j]) + " ";
-        }
-
-        std::cout << endl;
-    }
-
-    int p = 0;
-    int row;
-    for(int i = 0;i <= dim;i++){
-        for(int j = 0;j < dim;j++){
-            p += c[i*(dim+1)+j];
-        }
-        int n = c[i*(dim+1)+dim];
-        if(p != n){
-            row = i+1;
-            break;
-        }
-        p = 0;
-    }
-
-    int column = 1;
-    int cnt = 0;
-    p = 0;
-    for(int i = 0;i <= dim;i++){
-        for(j = 0;j < dim;j++){
-            p += c[cnt];
-            cnt += dim+1;
-        }
-        int n = c[(dim+1)*dim+i];
-        if(p != n){
-            std::cout << "Greska na preseku reda " + to_string(row) + " i kolone " + to_string(column) << endl;
-            return -1;
-        }
-        column++;
-        cnt = 0;
-        cnt += i+1;
-        p = 0;
-    }*/
-
     //ulazni parametri
     vector<int> a;
     vector<int> b;
